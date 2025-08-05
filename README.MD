@@ -75,7 +75,7 @@
     docker compose ps
     ```
 
-2.  **Flink Web UI**: Откройте **[http://localhost:8081](https://www.google.com/search?q=http://localhost:8081)**. В разделе "Running Jobs" должно быть **одно работающее задание**. Кликните на него и убедитесь, что счетчики `Records Received` и `Records Sent` растут.
+2.  **Flink Web UI**: Откройте **[http://localhost:8081](https://www.google.com/search?q=http://localhost:8081)**. Перейдите в Running Jobs -> нажмите на таск -> выберите Metrics -> создайте метрику numRecordsOut. Если данные изменяются со временем - всё работает
 
 3.  **Данные в ClickHouse**: Подключитесь к ClickHouse и проверьте, что данные поступают.
 
